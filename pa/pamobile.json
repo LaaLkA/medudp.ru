@@ -1,0 +1,7 @@
+{
+  "apiLinks": [
+    { "version": 1, "link": "https://medihost.ru/4CE9E09F-3B99-4FE2-AE03-945BA35D3C79", "minAppVer": 1 }
+  ],
+  "appMetricaApiKey": "21c0bf13-ba52-4345-b691-746280eb3a6f",
+  "backendServiceName": "PAccount"
+}

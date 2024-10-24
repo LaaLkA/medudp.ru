@@ -1,0 +1,16 @@
+User-agent: Yandex
+Allow: /
+Disallow:/admin/
+Disallow:/cgi-bin/
+Disallow:/js/
+Disallow:/content/
+Disallow:/css/
+Disallow:/fancybox/
+Disallow:/fonts/
+Disallow:/webstat/
+Disallow:/db/
+Host: https://www.medudp.ru
+
+User-agent: *
+Sitemap: https://www.medudp.ru/p4udp_sitemap.xml
+Disallow: /?page=lk

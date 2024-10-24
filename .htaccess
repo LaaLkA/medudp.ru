@@ -1,0 +1,21 @@
+AddDefaultCharset UTF-8
+PHP_VALUE default_charset utf-8
+
+
+<FilesMatch "robots.txt$">
+RewriteEngine off
+</FilesMatch>
+
+RewriteEngine On
+RewriteCond %{SERVER_PORT} !^443$
+RewriteRule .* https://%{SERVER_NAME}%{REQUEST_URI} [R=301,L]
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^medudp\.ru$ [NC]
+RewriteRule ^(.*)$ https://medudp.ru/$1 [L,R=301]
+
+#RewriteRule ^([a-z0-9_\.-]+)/$ ?page=$1 [L]
+#RewriteRule ^news/([0-9]+)/$ ?page=news&news=$1 [L]
+#RewriteRule ^([a-z0-9_\.-]+)/([a-z0-9_\.-]+)/$ ?page=$1&department_name=$2 [L]
+
+

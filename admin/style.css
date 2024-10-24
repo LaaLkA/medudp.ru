@@ -1,0 +1,823 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+body {
+    font-family: Montserrat;
+    background-image: url(../img/back1.png);
+    padding-bottom: 15px;
+    overflow: scroll;
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #666;
+}
+
+.container {
+    width: 1275px !important;
+    padding-left: -4px;
+    padding-right: -4px;
+}
+
+.form_aut {
+    margin-top: 10%;
+    background: linear-gradient(to right, rgb(255, 127, 80) 75%, rgb(255, 197, 120) 100%);
+    padding: 15px;
+    border-radius: 6px;
+}
+
+.form_aut > p > img {
+    width: 100px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.form_aut > p {
+    color: white;
+}
+
+.adminLine {
+    height: 55px;
+    background: linear-gradient(to right, rgb(255, 127, 80) 75%, rgb(255, 197, 120) 100%);
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.logo_bl > a {
+    text-decoration: none;
+}
+
+.logo_p {
+    display: inline;
+    line-height: 52px;
+    font-size: 16px;
+    color: white;
+}
+
+.logo_img {
+    line-height: 50px;
+    display: inline;
+}
+
+.logo_img > img {
+    height: 32px;
+}
+
+.lineText {
+    line-height: 50px;
+    font-size: 16px;
+    color: white;
+}
+
+.username {
+    line-height: 50px;
+    font-size: 16px;
+    color: white;
+    text-align: right;
+}
+
+.username > a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.leftMenu {
+    margin-top: 10px;
+}
+
+.rightMenu1 {
+    margin-top: 10px;
+    padding-right: 0;
+}
+
+.rightMenu2 {
+    background-color: white;
+}
+
+.doc_card {
+    margin-bottom: 5px;
+    /*padding-bottom: 5px;*/
+    /*padding-top: 5px;*/
+}
+
+.docName {
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.newsBackground {
+    height: 200px;
+    background-color: white;
+}
+
+.remodal-confirm {
+    background-color: coral;
+}
+
+.newsTable {
+    width: 100%;
+    list-style-type: none;
+    padding-left: 0;
+    padding-right: 15px;
+    line-height: 50px;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.newsTable li {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.instrum {
+    float: right;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+}
+
+.newsTable > li > a {
+    color: black;
+    text-decoration: none;
+}
+
+.newsTable > li > a:hover {
+    color: coral;
+}
+
+.addNewNews {
+    width: 100%;
+    position: absolute;
+}
+
+.oneNewsStyle {
+    line-height: normal;
+}
+
+.dashboardPlitka {
+    height: 500px;
+    border: solid 4px coral;
+    border-radius: 10px;
+}
+
+.dashContainer {
+    padding: 15px;
+}
+
+.department_page {
+    padding: 15px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.dep_name_style {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.lastDepartmentStroke {
+    border-top: #bbb solid 4px;
+}
+
+.StrNum {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.gordon {
+    padding: 0;
+}
+
+.gordon2 {
+    padding-right: 0;
+}
+
+.firstDepartmetnStroke {
+    padding: 10px;
+}
+
+.firstDepartmetnStroke p {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.departmentList {
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+    padding: 0;
+    margin-top: 25px;
+}
+
+.departmentStroke {
+    display: flex;
+    cursor: pointer;
+    opacity: 0.7;
+    color: #666;
+    padding: 0px 0px 0px 10px;
+    border-left: 3px solid #bbb;
+}
+
+.departmentStroke:hover {
+    opacity: 1;
+}
+
+.departmentStroke {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.departmentNameStroke {
+    display: flex;
+    flex-direction: column;
+    line-height: 24px;
+    gap: 10px;
+}
+
+.departmentNameStroke>div { 
+    display: flex;
+    gap: 15px;
+}
+
+.departmenCountGroup {
+    display: flex;
+    gap: 15px;
+}
+
+.departmentDocCount {
+    font-size: 12px;
+    font-weight: 400;
+    color: coral;
+}
+
+.departmentPersCount {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.departmentLabel {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.updateDepartmentInformation {
+}
+
+.updateDepartmentInformation label {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.pageNameLabel {
+    font-size: 20px;
+    margin: 0;
+    font-weight: bold;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    color: coral;
+    border-bottom: coral 2px solid;
+    padding-left: 0;
+}
+
+.pageNameLabel2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    color: coral;
+    border-bottom: coral 2px solid;
+}
+
+#updateDescriptionInputDepName {
+    resize: vertical;
+}
+
+.doctorsList {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.tabs {
+    margin-top: 15px;
+    padding: 0;
+}
+
+.doctorsListChild > a {
+    flex: 1 1 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 15px;
+    opacity: 0.7;
+}
+
+.doctorsListChild > a:hover {
+    opacity: 1;
+}
+
+.searchResult {
+    padding-top: 15px;
+}
+
+.errorStyle {
+    border-color: red;
+    color: red;
+}
+
+.errorStyle::placeholder {
+    color: red;
+}
+
+.errorStyle:focus {
+    color: #555;
+}
+
+.doctorInformation {
+    display: flex;
+    gap: 15px;
+}
+
+.doctorImg {
+}
+
+.doctorsCategory {
+    font-weight: 900;
+    color: coral;
+}
+
+.doctorName {
+    font-weight: bold;
+    color: #666;
+    font-size: 24px;
+}
+
+.departmentMarker {
+    color: #666;
+    max-width: 300px;
+    text-align: right;
+}
+
+.appointment_34 {
+    font-size: 12px !important;
+    color: #999;
+    display: block;
+    font-weight: 400;
+    max-width: 500px;
+}
+
+.appointment_35 {
+    font-size: 12px !important;
+    color: #999;
+    display: block;
+    font-weight: 400;
+    max-width: 500px;
+}
+
+.fancybox-content {
+    border-radius: 4px !important;
+}
+
+.departmentMarker {
+    font-size: 14px !important;
+    font-weight: normal;
+}
+
+.doctorSearchBlock {
+    margin-top: 15px;
+}
+
+.doctorSearchButton {
+    width: 100%;
+}
+
+.mainPageDepartmentStroke > div {
+    text-decoration-line: underline;
+    padding-top: 10px;
+}
+
+.mainPageDepartmentStroke > div:hover {
+    text-decoration-line: none;
+    color: black;
+}
+
+.allDepartmentsButton {
+    margin-top: 10px;
+}
+
+.mainFon {
+    padding: 15px;
+    background-color: white;
+}
+.card {
+    margin-bottom: 10px;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.appointment {
+    font-weight: lighter;
+}
+
+@media print {
+    .more {
+        page-break-before: always;
+    }
+}
+
+.menuName {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.newsPageAdmin {
+    padding: 0;
+}
+
+.adminNewsListWrapper {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    padding: 15px 0 15px 0;
+}
+
+.newsPageAdminChild {
+
+}
+
+.newsPageAdminChild > a {
+    display: flex;
+    gap: 10px;
+    opacity: 0.7;
+}
+
+.newsPageAdminChild > a:hover {
+    opacity: 1;
+}
+
+.newsImg {
+    flex: 0 0 200px;
+}
+
+.newsTitle {
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.newsSubInfo {
+    padding-top: 7px;
+    display: flex;
+    gap: 15px;
+}
+
+.newsMetaInformation {
+    
+}
+
+.updateNewsForm p {
+    margin: 0;
+}
+
+.inputDwnNewsImage {
+    display: none !important;
+}
+
+.inputDwnNewsImage:focus {
+    outline: 0 !important;
+    outline-offset: 0 !important;
+}
+
+.inputDwnNewsImageBlock {
+    padding-left: 15px;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.inputDwnNewsImageBlock p {
+    margin-bottom: 10px;
+}
+
+.inputNameNewsImage {
+    background: transparent;
+    border: 1px solid coral;
+    display: inline-block;
+    vertical-align: top;
+    height: 34px;
+    padding: 0 8px;
+    width: 500px;
+    font-weight: normal;
+    border-radius: 6px;
+    color: coral;
+}
+
+.panel-body {
+    padding: 5px 15px;
+    background-color: #dddddd;
+    color: black;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.panel-default {
+    /*border-color: cornflowerblue;*/
+}
+
+.mainPage {
+    color: coral !important;
+}
+
+.imgDescription {
+    padding-top: 50px;
+}
+
+#newImagePre {
+    width: 100%;
+}
+
+.emptyInput {
+    border-color: red;
+}
+
+.acceptModalButton {
+    width: 150px;
+}
+
+#newArticleNews {
+    resize: vertical;
+}
+
+.infWrapperMainAdminPage {
+    padding-bottom: 15px;
+}
+.infWrapperMainAdminPage > a.btn-xs {
+    width: 150px;
+}
+
+.mainPageDepartmentStroke {
+    padding-top: 10px;
+}
+
+.mainPageDepartmentStroke:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.newsNameStroke {
+    font-size: 1.1em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; /* Добавляем многоточие */
+    margin-bottom: 0px;
+}
+
+.newsNameStroke span {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.newsNameStroke span:nth-child(1) {
+    width: 78%;
+}
+
+.newsNameStroke span:nth-child(1):hover {
+    text-decoration: underline;
+}
+
+.newsNameStroke span:nth-child(2) {
+    width: 21%;
+}
+
+.spanDepNameStroke {
+    background-color: beige;
+    padding: 3px 10px;
+    border-radius: 4px;
+}
+
+.infWrapperMainAdminPage > .pageNameLabel {
+    margin-bottom: 10px;
+}
+
+.infWrapperMainAdminPage > .mainPageDepartmentStroke:hover {
+    text-decoration: none;
+}
+
+.newsNameStroke2 {
+    font-size: 1.1em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; /* Добавляем многоточие */
+    margin-bottom: 5px;
+    background-color: beige;
+    padding: 3px 10px;
+    border-radius: 4px;
+}
+
+.newsNameStroke2:hover {
+    text-decoration: underline;
+}
+
+.alert-danger-date {
+    font-size: 14px !important;
+    background-color: #ce8483;
+    padding: 2px 5px;
+    border-radius: 3px;
+    text-transform: initial;
+    color: whitesmoke;
+    font-weight: normal;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.newsAdminDescription {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#adminMoreNewsButton {
+    position: static;
+    color: coral;
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 2px solid coral;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+#adminMoreNewsButton:hover {
+    color: white;
+    background-color: coral;
+}
+
+.adminNewsButtonsWrapper {
+    margin-bottom: 3px;
+}
+
+.sertBadge {
+    background-color: darkred !important;
+}
+
+.pdfColor {
+    color: darkred;
+}
+
+.wordColor {
+    color: #2b669a;
+}
+
+.excelColor {
+    color: #2b542c;
+}
+
+.archColor {
+    color: purple;
+}
+
+.rightMenuContentWrapper {
+    padding: 15px 15px 0px 15px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.lineNoWrap {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.documentsPageLine {
+    margin-bottom: 15px;
+    border-bottom: 1px #ddd solid;
+}
+
+.documentsPageLine a {
+    color: coral;
+    text-decoration: underline;
+}
+
+.documentsPageLine a:hover {
+    color: coral;
+    text-decoration: none;
+}
+
+.documentsPageLine p {
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+
+.documentsPageLine div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.documentsPageLine div:nth-child(1) {
+    width: 5%;
+}
+
+.documentsPageLine div:nth-child(2) {
+    width: 84%;
+}
+
+.documentsPageLine div:nth-child(3) {
+    width: 10%;
+}
+
+.documentIcon {
+    font-size: 60px;
+}
+
+.documentWatch {
+    font-size: 30px;
+}
+
+.documentWatch span {
+    font-size: 14px;
+    display: block;
+}
+
+.inputDwnFile {
+    display: none !important;
+}
+
+.inputDwnFile:focus {
+    outline: 0 !important;
+    outline-offset: 0 !important;
+}
+
+.inputDwnFileBlock {
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.inputDwnFileBlock p {
+    margin-bottom: 10px;
+}
+
+.inputNameFile {
+    background: transparent;
+    border: 1px solid coral;
+    display: inline-block;
+    vertical-align: top;
+    height: 34px;
+    padding: 0 8px;
+    width: 500px;
+    font-weight: normal;
+    border-radius: 6px;
+    color: coral;
+}
+
+.documentName {
+    text-transform: uppercase !important;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.documentNameLink {
+    text-decoration: none !important;
+    color: rgba(0, 0, 0, 0.7) !important;
+}
+
+.documentNameLink:hover {
+    color: black !important;
+}
+
+.documentFilePath {
+    color: rgba(0, 0, 0, 0.65) !important;
+}
+
+.documentDate {
+    color: rgba(0, 0, 0, 0.65) !important;
+}
+
+.documentSize {
+    color: rgba(0, 0, 0, 0.65) !important;
+}
+
+.documentCategories {
+    color: rgba(0, 0, 0, 0.65) !important;
+}
+
+#doctor_textarea {
+    resize: vertical;
+}

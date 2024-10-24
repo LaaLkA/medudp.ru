@@ -1,0 +1,157 @@
+
+
+
+
+
+body{
+    /*height: 100%;*/
+    margin: 0;
+    font-family: 'Source Sans Pro','Helvetica Neue', Helvetica,Arial,sans-serif;
+    font-size: 14px;
+}
+a {
+    text-decoration: none;
+}
+.material-icons.md-14 { font-size: 14px; }
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow: hidden;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    background: #ffaf00;
+    
+}
+.header__container {
+    display: flex;
+    align-items: center;
+    padding: 0 25px;
+    min-height: 50px;
+}
+.header__icon {
+    color: #fff;
+    z-index: 5;
+}
+.header__logo {
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 900;
+    color: #fff;
+    position: relative;
+    z-index: 5;
+    flex: 1 1 auto;
+    padding-left: 15px;
+}
+.header__user {
+}
+.user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    
+}
+.user__icon {
+}
+.user__name {
+    padding-left: 10px;
+}
+.content{
+    display: flex;
+    flex: 1 1 auto;
+    background: #ecf0f5;
+}
+.footer {
+    background: #e1e1e1;
+}
+.dasboard {
+    background-color: #333;
+    width: 230px;
+    overflow: hidden;
+}
+.dashboard__row {
+    padding-top: 55px;
+    display: flex;
+    flex-direction: column;
+
+}
+.dashboard__item {
+    display: flex;
+    align-items: center;
+    line-height: 25px;
+    padding: 12px 25px 12px 25px;
+    color: #b8c7ce;
+}
+.dashboard__item:hover {
+    background-color: #1e282c;
+    color: #fff;
+}
+.dashboard__title {
+    padding-left: 15px;
+    flex: 1 1 auto;
+}
+.main-content {
+    flex: 1 1 auto;
+    background-color: #ecf0f5;
+    text-align: center;
+    overflow: hidden;
+}
+.main-content__row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 45px -5px;
+}
+.main-content__block {
+    padding: 5px 5px;
+    flex: 0 0 250px;
+}
+.main-content__content {
+    /* width: 33.333%; */
+    min-height: 200px;
+    background: #fff;
+}
+@media (min-width: 767px) {
+    .dasboard {
+        visibility: visible;
+        width: 230px;
+        transition: all 0.3s ease 0s;
+    }
+    .header__icon {
+        visibility: hidden;
+        width: 0px;
+        transition: all 0.3s ease 0s;
+    }
+    .header__logo {
+        padding-left: 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    .dasboard {
+        visibility: hidden;
+        width: 0px;
+        transition: all 0.3s ease 0s;
+    }
+    .header__icon {
+        visibility: visible;
+        width: 50px;
+        transition: all 0.3s ease 0s;
+    }
+
+    
+    
+}
